@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+.site-header {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.logo-box img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+.menu-btn {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 2rem;
+}
+.menu-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.9);
+  color: white;
+  padding: 2rem;
+}
+.menu-overlay nav a {
+  display: block;
+  margin: 1rem 0;
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  background: red;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.section {
+  padding: 3rem 2rem;
+}
+.site-footer {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
